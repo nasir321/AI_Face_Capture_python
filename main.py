@@ -42,10 +42,11 @@ while True:
     if cv2.waitKey(1)==13 or count==10: #capture image 10 0r press any key to stop.
         break
 
+        
 cap.release() # Release camera
 cv2.destroyAllWindows() #Destroy All Window After complete counts
 cv2.waitKey()
-print('Collecting All Samples Completed!!!') #print this message t infome user
+print('Collecting All Images Successfully Completed !') #print this message t infome user
 
 
 
